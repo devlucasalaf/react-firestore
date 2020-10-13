@@ -1,0 +1,99 @@
+div#containerPosts {
+  position: absolute;
+  left: 21rem;
+  width: 500px
+}
+
+.postagens {
+  margin-bottom: 5rem
+}
+
+#name {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  border: none;
+  background: rgb(230, 222, 108);
+  border-radius: 0.8rem;
+  outline: none;
+  margin-bottom: 1rem;
+  margin-top: 1rem
+}
+
+#titulo {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  border: none;
+  background: rgb(230, 222, 108);
+  border-radius: 0.8rem;
+  outline: none;
+  margin-bottom: 1rem
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  border: 1px solid rgb(230, 222, 108) ;
+  border-radius: 0.8rem;
+  outline: none;
+  margin-bottom: 1rem
+}
+
+#foto {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  border: none;
+  background: rgb(230, 222, 108);
+  border-radius: 0.8rem;
+  outline: none;
+  margin-bottom: 1rem
+}
+
+#buttonsDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#buttonsDiv button {
+  padding: 1rem;
+  border-radius: .8rem;
+  border: none;
+  outline: none;
+  width: 15rem
+}
+
+#alterar {
+  background: rgb(36, 179, 36);
+  color: white;
+  transition: all 0.2s;
+}
+
+#alterar:hover {
+  background: rgb(27, 140, 27);
+  color: white;
+  cursor: pointer;
+}
+
+#deletar {
+  background: rgb(228, 47, 47);
+  color: white;
+  transition: all 0.2s;
+}
+
+#deletar:hover {
+  background: rgb(194, 40, 40);
+  color: white;
+  cursor: pointer;
+}

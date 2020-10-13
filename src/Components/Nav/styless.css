@@ -1,0 +1,33 @@
+div#navBar {
+  width: 20rem;
+  background: rgb(230, 222, 108);
+  position: fixed;
+  height: 100%;
+  left: 0
+}
+
+div#navBar img {
+  width: 20rem;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+div#navBar a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  background: rgb(230, 222, 108);
+  padding: 2rem
+}
+
+div#navBar a.active {
+  background: rgb(225, 214, 66)
+}
+
+div#navBar a:hover {
+  background: rgb(225, 214, 66);
+
+}

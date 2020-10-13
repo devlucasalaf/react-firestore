@@ -1,0 +1,28 @@
+div#containerNewPosts {
+  position: absolute;
+  left: 21rem;
+  width: 500px
+}
+
+div#publicarDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div#publicarDiv button {
+  padding: 1rem;
+  border-radius: .8rem;
+  border: none;
+  outline: none;
+  width: 15rem;
+  background: rgb(36, 179, 36);
+  color: white;
+  transition: all 0.2s;
+}
+
+div#publicarDiv button:hover {
+  background: rgb(27, 140, 27);
+  color: white;
+  cursor: pointer;
+}
